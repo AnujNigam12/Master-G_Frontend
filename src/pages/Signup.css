@@ -1,0 +1,138 @@
+/* Signup page container */
+.signup-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Signup Form*/
+.signup-form {
+    height: 700px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+/* Signup form title */
+.signup-page h1 {
+    margin-bottom: 50px;
+    font-size: 8rem;
+    text-align: center;
+    color: #fff;
+  }
+
+/* Form styling */
+.signup-page form {
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    padding: 30px 0px 30px 55px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Input field styling */
+.signup-page input[type="text"],
+.signup-page input[type="email"],
+.signup-page input[type="password"],
+.signup-page select {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+.signup-page input[type="email"] {
+    margin-bottom: 0px;
+}
+
+.signup-page input[type="text"]::placeholder,
+.signup-page input[type="email"]::placeholder,
+.signup-page input[type="password"]::placeholder {
+    color: #ccc;
+}
+
+.signup-page input[type="text"]:focus,
+.signup-page input[type="email"]:focus,
+.signup-page input[type="password"]:focus,
+.signup-page select:focus {
+    outline: none;
+    border-color: #f0f0f0;
+}
+
+/* OTP section: container for email input and send OTP button */
+.signup-page .email-otp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+/* Email input field will take 75% width */
+.email-otp-container input[type="email"] {
+    width: 75%;
+}
+
+/* Send OTP button styling */
+.send-otp-btn {
+    width: 20%;
+    padding: 10px;
+    background-color: #8ee06b;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.send-otp-btn:hover {
+    background-color: #ffffff;
+}
+
+/* Signup button */
+.signup-page button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 35%;
+}
+
+.signup-page button[type="submit"]:hover {
+    background-color: #2c97cc;
+}
+
+/* Login link styling */
+.login-link {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.login-link p {
+    color: #ccc;
+}
+
+.login-link a {
+    color: #8970eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #d181e9;
+}
